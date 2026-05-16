@@ -1,5 +1,6 @@
 {
   "year": 2026,
+  "defaultLang": "en",
   "runningOrderExists": true,
   "festivalDays": [
     "2026-07-10",
@@ -28,18 +29,22 @@
   ],
   "links": [
     {
+      "id": "l1",
       "label": "Website",
       "url": "https://ragnaroek-festival.example/"
     },
     {
+      "id": "l2",
       "label": "Tickets",
       "url": "https://ragnaroek-festival.example/tickets"
     },
     {
+      "id": "l3",
       "label": "Travel & Camping",
       "url": "https://ragnaroek-festival.example/travel"
     },
     {
+      "id": "l4",
       "label": "Instagram",
       "url": "https://instagram.com/ragnaroek_festival_example"
     }
@@ -101,13 +106,14 @@
     },
     {
       "id": "a10",
-      "name": "Shining Stark",
+      "name": "Black Sails",
       "imageUrl": "https://thojaw.github.io/ragnaroek-festival/data/images/a10.jpg",
       "description": "Sea-shanty hardcore with mandolin and trumpet. The headliner everyone leaves the merch tent for."
     }
   ],
   "gigs": [
     {
+      "id": "g1",
       "artistId": "a7",
       "dayDate": "2026-07-10",
       "startTime": "18:00",
@@ -115,6 +121,7 @@
       "annotation": "Opening blessing performed before the first note."
     },
     {
+      "id": "g2",
       "artistId": "a3",
       "dayDate": "2026-07-10",
       "startTime": "19:30",
@@ -122,6 +129,7 @@
       "annotation": null
     },
     {
+      "id": "g3",
       "artistId": "a4",
       "dayDate": "2026-07-10",
       "startTime": "21:00",
@@ -129,6 +137,7 @@
       "annotation": null
     },
     {
+      "id": "g4",
       "artistId": "a2",
       "dayDate": "2026-07-11",
       "startTime": "16:00",
@@ -136,6 +145,7 @@
       "annotation": null
     },
     {
+      "id": "g5",
       "artistId": "a9",
       "dayDate": "2026-07-11",
       "startTime": "17:30",
@@ -143,6 +153,7 @@
       "annotation": null
     },
     {
+      "id": "g6",
       "artistId": "a5",
       "dayDate": "2026-07-11",
       "startTime": "19:00",
@@ -150,6 +161,7 @@
       "annotation": null
     },
     {
+      "id": "g7",
       "artistId": "a8",
       "dayDate": "2026-07-11",
       "startTime": "21:00",
@@ -157,6 +169,7 @@
       "annotation": "Swapped slots with Ragnar's Wrath."
     },
     {
+      "id": "g8",
       "artistId": "a6",
       "dayDate": "2026-07-12",
       "startTime": "16:00",
@@ -164,6 +177,7 @@
       "annotation": "Swapped slots with Valkyrjar."
     },
     {
+      "id": "g9",
       "artistId": "a1",
       "dayDate": "2026-07-12",
       "startTime": "17:30",
@@ -171,11 +185,46 @@
       "annotation": null
     },
     {
+      "id": "g10",
       "artistId": "a10",
       "dayDate": "2026-07-12",
-      "startTime": "22:00",
-      "endTime": "22:40",
-      "annotation": "Updated time."
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "annotation": "Festival-closing set."
+    }
+  ],
+  "translations": [
+    {
+      "lang": "de",
+      "artists": [
+        {
+          "id": "a1",
+          "description": "Donnerndes norwegisches Folk-Metal-Quartett, das Sagenpoesie und Schlachtzug-Trommelrhythmen vereint. Ihre Live-Shows enden mit einem Chor aus Hornrufen."
+        }
+      ],
+      "news": [
+        {
+          "id": "n1",
+          "title": "Tickets im Verkauf",
+          "body": "Drei-Tages-Pässe und Einzeltageskarten sind jetzt erhältlich. Frühbucherpreise enden am 01.04.2026."
+        }
+      ],
+      "links": [
+        {
+          "id": "l1",
+          "url": "https://ragnaroek-festival.example/de/"
+        },
+        {
+          "id": "l3",
+          "label": "Anreise & Camping"
+        }
+      ],
+      "gigs": [
+        {
+          "id": "g1",
+          "annotation": "Eröffnungssegen vor dem ersten Ton."
+        }
+      ]
     }
   ]
 }
