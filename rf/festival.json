@@ -101,7 +101,7 @@
     },
     {
       "id": "a10",
-      "name": "Black Sails",
+      "name": "Shining Stark",
       "imageUrl": "https://thojaw.github.io/ragnaroek-festival/data/images/a10.jpg",
       "description": "Sea-shanty hardcore with mandolin and trumpet. The headliner everyone leaves the merch tent for."
     }
@@ -173,9 +173,9 @@
     {
       "artistId": "a10",
       "dayDate": "2026-07-12",
-      "startTime": "19:00",
-      "endTime": "21:00",
-      "annotation": "Festival-closing set."
+      "startTime": "22:00",
+      "endTime": "22:40",
+      "annotation": "Updated time."
     }
   ]
 }
